@@ -1,0 +1,332 @@
+@font-face {
+    font-family: "Sauce Tomato";
+    src: url(../fonts/sauce-tomato/Sauce_Tomato.woff2), format("woff2"),
+         url(../fonts/sauce-tomato/Sauce_Tomato.woff), format("woff");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+/*Nav Section*/
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 24px;
+    align-items: center;
+    display: flex;
+    height: 64px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo img,
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo a {
+    color: rgb(61, 61, 61);
+    font-size: large;
+    font-family: Georgia, serif
+}
+
+.colmar{
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+}
+
+
+.nav .nav-links {
+    margin-left: auto;
+}
+
+.nav-links button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 4px 16px;
+    margin-left: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Sauce tomato";
+}
+
+.nav-links button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.nav-links button {
+    transition: color 750ms ease-in-out;
+}
+
+/*Banner Section*/
+
+.banner-section {
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+.banner img {
+    width: 87%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*Banner Text*/
+
+.banner-text {
+    padding: 10px;
+    width: 50%;
+    font-size: x-large;
+    position: relative;
+    right: 50px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.banner-text h1 {
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.banner-text button {
+    width: 100%;
+    padding: 8px 90px;
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid rgb(92, 92, 92);
+    background-color: rgb(0, 0, 0); 
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: x-large;
+}
+
+.banner-text button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.banner-text button {
+    transition: color 750ms ease-in-out;
+}
+
+/* Main Information */
+
+.main-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Content */
+
+.left-content {
+    padding: 32px 24px;
+    background-color: white;
+    width: 60%;
+    border-right: 1px solid rgb(217, 217, 217);
+}
+
+.left-content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left-content h1 {
+    padding-top: 32px;
+}
+
+.left-content p {
+    padding: 24px 0px;
+}
+
+/* Right content */
+
+.right-content {
+    padding: 16px 0px;
+    width: 40%;
+}
+
+.row {
+    padding: 16px 0px 16px 16px;
+    display: flex;
+    align-items: center;
+    margin: 1px;
+}
+
+#top-row-border {
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#middle-row-border {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#bottom-row-border {
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.row-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.row-text {
+    width: 60%;
+}
+
+.row-text p {
+    padding: 10px 0px;
+}
+
+.row-text h4 {
+    color: rgb(0, 115, 255);
+    cursor: pointer;
+}
+
+/* Start Learning Section */
+
+.start-learning-section {
+    padding: 32px 24px;
+    background-color: rgb(212, 212, 212);
+}
+
+.start-learning-section .title {
+    font-size: x-large;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
+}
+
+/* Available Courses */
+
+.available-courses {
+    padding: 32px 0px 5px;
+    display: flex;
+}
+
+/* Course */
+
+.course {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 45%;
+    margin: 0px 10px;
+}
+
+.course-img img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course-text {
+    padding: 16px 3px 24px 16px;
+}
+
+.category {
+    padding: 10px 0px;
+}
+
+.course-text p {
+    color:dimgray
+}
+
+/* Thesis exhibit Sectiom */
+
+.Thesis-exhibit-Sectiom {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Content */
+
+.thesis-left-content {
+    padding: 32px 24px;
+    background-color: white;
+    width: 60%;
+}
+
+.thesis-left-content video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thesis-left-content h1 {
+    padding-top: 32px;
+}
+
+.thesis-left-content p {
+    padding: 24px 0px;
+}
+
+/* Right Column */
+
+.thesis-right-content {
+    padding: 16px 0px;
+    width: 40%;
+}
+
+.Thesis-exhibit-Sectiom .row {
+    padding: 16px 0px 16px 16px;
+    display: flex;
+    align-items: center;
+    margin: 1px;
+}
+
+.Thesis-exhibit-Sectiom .row-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Thesis-exhibit-Sectiom .row-text {
+    width: 60%;
+}
+
+.Thesis-exhibit-Sectiom .row-text p {
+    padding: 10px 0px;
+    color: dimgray;
+}
+
+/* Footer */
+
+footer {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(217, 217, 217);
+    height: 60px;
+}
+
+.footer-nav {
+    display: flex;
+    padding: 0px 80px;
+}
+
+.footer-nav li {
+    padding-left: 80px;
+    list-style-type: none;
+}
