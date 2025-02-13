@@ -15,7 +15,7 @@
 /*Nav Section*/
 
 .nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 231, 219, 1);
     padding: 0px 24px;
     align-items: center;
     display: flex;
@@ -72,14 +72,21 @@
     transition: color 750ms ease-in-out;
 }
 
+/* First Section */
+
+.first-section {
+    background-color: rgb(100, 127, 163, 1);
+}
+
 /*Banner Section*/
 
 .banner-section {
     width: 100%;
-    background-color: rgb(212, 212, 212);
     display: flex;
     align-items: center;
     padding: 32px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .banner img {
@@ -131,18 +138,25 @@
     transition: color 750ms ease-in-out;
 }
 
+/* Second Section */
+
+.second-section {
+    background-color: rgb(237, 231, 219, 1);
+}
+
 /* Main Information */
 
 .main-information {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Left Content */
 
 .left-content {
     padding: 32px 24px;
-    background-color: white;
     width: 60%;
     border-right: 1px solid rgb(217, 217, 217);
 }
@@ -210,7 +224,7 @@
 
 .start-learning-section {
     padding: 32px 24px;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(100, 127, 163, 1);
 }
 
 .start-learning-section .title {
@@ -224,12 +238,14 @@
 .available-courses {
     padding: 32px 0px 5px;
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Course */
 
 .course {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(14,14,14,255);
     border-radius: 10px;
     width: 45%;
     margin: 0px 10px;
@@ -250,8 +266,12 @@
     padding: 10px 0px;
 }
 
+.course-text h1 {
+    color: white;
+}
+
 .course-text p {
-    color:dimgray
+    color:rgb(177, 177, 177)
 }
 
 /* Thesis exhibit Sectiom */
@@ -259,13 +279,20 @@
 .Thesis-exhibit-Sectiom {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(237, 231, 219, 1);
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Left Content */
 
 .thesis-left-content {
     padding: 32px 24px;
-    background-color: white;
     width: 60%;
 }
 
@@ -317,6 +344,7 @@ footer {
     padding: 16px 24px;
     display: flex;
     justify-content: space-around;
+    background-color: rgb(237, 231, 219, 1);
     border-top: 1px solid rgb(217, 217, 217);
     height: 60px;
 }
